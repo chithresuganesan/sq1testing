@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('test', 'Controller@index')->name('index');
+Route::get('index/test', 'Controller@index')->name('index');
