@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/chithu', 'TestController@index');
+
+Route::get('test', 'Controller@index')->name('index');
